@@ -55,7 +55,7 @@ ROOT_URLCONF = 'root.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/mani/Documents/puzzle/RuzzleSolutionUsingNLP/puzzle'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

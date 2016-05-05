@@ -19,6 +19,7 @@ from puzzle import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^generate/$', views.search),
     url(r'^$', views.index, name='index'),
 
 ]
